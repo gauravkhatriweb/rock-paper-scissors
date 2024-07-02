@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.game-mode {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #081b31;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.score {
+  text-align: center;
+}
+
+#user1-score, #user2-score, #computer-score {
+  font-size: 3rem;
+}
+
+.msg-container {
+  margin-bottom: 2rem;
+}
+
+#msg {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.leaderboard {
+  margin-top: 2rem;
+}
+
+.leaderboard h2 {
+  margin-bottom: 1rem;
+}
+
+.leaderboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  margin: 0.5rem 0;
+}
+
+.reset-container {
+  margin-top: 2rem;
+}
+
+.theme-toggle {
+  margin-top: 2rem;
+}
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.watermark a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+.watermark a:hover {
+  text-decoration: underline;
+}  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="game-mode">
+        <button id="user-vs-computer">User vs. Computer</button>
+        <button id="user-vs-user">User vs. User</button>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user1-score">0</p>
+            <p>User 1</p>
+        </div>
+        <div class="score">
+            <p id="user2-score">0</p>
+            <p>User 2</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play Your Move!</p>
+    </div>
+    <div class="leaderboard">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard-list"></ul>
+    </div>
+    <div class="reset-container">
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    <div class="theme-toggle">
+        <label for="theme">Dark Mode:</label>
+        <input type="checkbox" id="theme-toggle">
+    </div>
+    <div class="watermark">
+        <p>Follow for more project code: <a href="https://github.com/gauravkhatriweb" target="_blank">https://github.com/gauravkhatriweb</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
